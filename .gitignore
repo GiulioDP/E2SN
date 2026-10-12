@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Generated datasets
+data/*
+!data/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+
+# Experiment checkpoints / dry runs
+**/_checkpoint/
+**/checkpoints/
+**/results_dry_run/
